@@ -21,5 +21,8 @@ public class Main {
 
         System.out.println("Now we can Talk to Database");
 
+
+        System.out.println("Class will end at exact 5:30 so be patience");
+
     }
 }
