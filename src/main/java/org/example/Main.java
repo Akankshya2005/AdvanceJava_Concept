@@ -9,9 +9,8 @@ public class Main {
     public static void main(String[] args) {
         String URL ="jdbc:mysql://localhost:3306/student";
         String USER = "root";
-        String PASSWORD = "Rintu@1234";
+        String PASSWORD = "akankshya2005";
         try {
-
           Connection con = DriverManager.getConnection(URL,USER,PASSWORD);
 
           PreparedStatement pr=con.prepareStatement("insert into student_data values (?,?,?)");
